@@ -1,0 +1,34 @@
+MongoServerError: E11000 duplicate key error collection: filmsDB.movies index: img_1 dup key: { img: "https://bit.ly/2IcnSwz" }
+    at D:\movieAPI\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\movieAPI\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\movieAPI\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\movieAPI\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\movieAPI\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\movieAPI\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\movieAPI\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\movieAPI\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:391:12) {
+  index: 0,
+  code: 11000,
+  keyPattern: { img: 1 },
+  keyValue: { img: 'https://bit.ly/2IcnSwz' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+MongoServerError: E11000 duplicate key error collection: filmsDB.movies index: img_1 dup key: { img: "https://bit.ly/2IcnSwz" }
+    at D:\movieAPI\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\movieAPI\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\movieAPI\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\movieAPI\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\movieAPI\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\movieAPI\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\movieAPI\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\movieAPI\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:391:12) {
+  index: 0,
+  code: 11000,
+  keyPattern: { img: 1 },
+  keyValue: { img: 'https://bit.ly/2IcnSwz' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
